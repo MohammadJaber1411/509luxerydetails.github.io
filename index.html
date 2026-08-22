@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="509 Luxery Details - affordable interior and exterior car detailing in the Tri-Cities, Washington area." />
+  <title>509 Luxery Details | Tri-Cities Car Detailing</title>
+  <style>
+    :root{
+      --bg:#0b0d10;
+      --card:#14181d;
+      --text:#f7f7f7;
+      --muted:#b8c0c8;
+      --accent:#e6b85c;
+      --line:#252b31;
+      --white:#fff;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Arial,Helvetica,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+    a{color:inherit;text-decoration:none}
+    .wrap{width:min(1100px,92%);margin:auto}
+    header{
+      position:sticky;top:0;z-index:20;
+      background:rgba(11,13,16,.92);
+      border-bottom:1px solid var(--line);
+      backdrop-filter:blur(10px);
+    }
+    nav{
+      min-height:70px;
+      display:flex;align-items:center;justify-content:space-between;gap:20px;
+    }
+    .brand{font-weight:800;letter-spacing:.4px;font-size:1.18rem}
+    .brand span{color:var(--accent)}
+    nav .links{display:flex;gap:20px;align-items:center}
+    .btn{
+      display:inline-block;
+      padding:12px 18px;
+      border-radius:10px;
+      background:var(--accent);
+      color:#111;
+      font-weight:800;
+    }
+    .btn.outline{
+      background:transparent;color:var(--white);
+      border:1px solid #59616b;
+    }
+    .hero{
+      padding:90px 0 70px;
+      background:
+        radial-gradient(circle at 80% 15%, rgba(230,184,92,.16), transparent 32%),
+        linear-gradient(180deg,#0b0d10,#10141a);
+    }
+    .hero-grid{
+      display:grid;grid-template-columns:1.2fr .8fr;gap:50px;align-items:center;
+    }
+    .eyebrow{
+      color:var(--accent);font-weight:800;text-transform:uppercase;
+      letter-spacing:1.5px;font-size:.82rem;
+    }
+    h1{font-size:clamp(2.5rem,7vw,5rem);line-height:1.02;margin:12px 0 18px}
+    h2{font-size:2rem;margin:0 0 10px}
+    h3{margin-top:0}
+    .lead{font-size:1.14rem;color:var(--muted);max-width:700px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .hero-card,.card{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:26px;
+      box-shadow:0 18px 50px rgba(0,0,0,.22);
+    }
+    .hero-card .big{font-size:2.1rem;font-weight:800;color:var(--accent)}
+    section{padding:70px 0}
+    .sub{color:var(--muted);max-width:720px}
+    .grid{
+      display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px;
+    }
+    .price{font-size:1.9rem;font-weight:800;margin:10px 0}
+    .muted{color:var(--muted)}
+    .features{margin:14px 0 0;padding-left:18px;color:var(--muted)}
+    .features li{margin:7px 0}
+    .dark-section{background:#0e1217;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    .contact{
+      display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:stretch;
+    }
+    .contact a.phone{font-size:1.8rem;font-weight:800;color:var(--accent)}
+    footer{padding:28px 0;color:#9da6af;text-align:center}
+    @media(max-width:800px){
+      .hero-grid,.contact{grid-template-columns:1fr}
+      .grid{grid-template-columns:1fr}
+      nav .links a:not(.btn){display:none}
+      .hero{padding-top:65px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav>
+        <a class="brand" href="#top">509 <span>Luxery</span> Details</a>
+        <div class="links">
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a class="btn" href="sms:5098209271">Text for a Quote</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">Tri-Cities, Washington</div>
+          <h1>Make Your Car Feel Clean Again.</h1>
+          <p class="lead">Affordable car detailing with careful attention to the interior and exterior. Serving Kennewick and the Tri-Cities area.</p>
+          <div class="actions">
+            <a class="btn" href="sms:5098209271">Text 509-820-9271</a>
+            <a class="btn outline" href="tel:5098209271">Call Now</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="eyebrow">Easy Quotes</div>
+          <div class="big">Send a photo.</div>
+          <p class="muted">Text photos of your vehicle and what you want cleaned. We’ll reply with availability and a quote.</p>
+          <a class="btn" href="sms:5098209271?body=Hi%20509%20Luxery%20Details%2C%20I%27d%20like%20a%20detailing%20quote.">Get a Quote</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrap">
+        <div class="eyebrow">Services</div>
+        <h2>Simple, affordable detailing</h2>
+        <p class="sub">Pricing can vary depending on vehicle size and condition. Text for an exact quote before booking.</p>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Small Cars</h3>
+            <div class="price">From $100</div>
+            <p class="muted">Great for sedans and smaller vehicles.</p>
+            <ul class="features">
+              <li>Interior cleaning</li>
+              <li>Vacuum and wipe-down</li>
+              <li>Exterior cleaning</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Trucks</h3>
+            <div class="price">From $150</div>
+            <p class="muted">For pickups and larger truck interiors.</p>
+            <ul class="features">
+              <li>Interior cleaning</li>
+              <li>Vacuum and wipe-down</li>
+              <li>Exterior cleaning</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Vans</h3>
+            <div class="price">From $150</div>
+            <p class="muted">For family vans and similar-sized vehicles.</p>
+            <ul class="features">
+              <li>Interior cleaning</li>
+              <li>Vacuum and wipe-down</li>
+              <li>Exterior cleaning</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="dark-section">
+      <div class="wrap contact">
+        <div class="card">
+          <div class="eyebrow">About Us</div>
+          <h2>Local detailing in the 509</h2>
+          <p class="muted">509 Luxery Details provides straightforward, affordable car detailing for customers in the Tri-Cities area. Our goal is simple: clean work, fair pricing, and easy communication.</p>
+        </div>
+
+        <div class="card">
+          <div class="eyebrow">Book / Quote</div>
+          <h2>Ready to clean your vehicle?</h2>
+          <p class="muted">Call or text us with your vehicle type and a few photos.</p>
+          <p><a class="phone" href="tel:5098209271">509-820-9271</a></p>
+          <div class="actions">
+            <a class="btn" href="sms:5098209271">Text Us</a>
+            <a class="btn outline" href="tel:5098209271">Call Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© 2026 509 Luxery Details · Tri-Cities, Washington</div>
+  </footer>
+</body>
+</html>
